@@ -1,21 +1,17 @@
-# Use Python base image
+# Use official Python image
 FROM python:3.9
 
-# Set working directory inside the container
+# Set working directory
 WORKDIR /app
 
-# Copy only requirements.txt first (Important for caching)
-COPY requirements.txt .
+# Copy application files
+COPY . /app
 
-# Upgrade pip and install dependencies
-RUN pip install --upgrade pip
+# Install dependencies
 RUN pip install -r requirements.txt
-
-# Now copy all your application files (Flask code, etc.)
-COPY . .
 
 # Expose Flask port
 EXPOSE 5000
 
-# Run the app
+# Start Flask application
 CMD ["python", "app.py"]
