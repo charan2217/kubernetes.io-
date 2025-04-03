@@ -1,0 +1,34 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{"nginx.ingress.kubernetes.io/rewrite-target":"/"},"name":"multi-tier-ingress","namespace":"multi-tier-app"},"spec":{"rules":[{"host":"myapp.local","http":{"paths":[{"backend":{"service":{"name":"frontend","port":{"number":80}}},"path":"/","pathType":"Prefix"}]}}]}}
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  creationTimestamp: "2025-01-21T06:03:05Z"
+  generation: 1
+  name: multi-tier-ingress
+  namespace: multi-tier-app
+  resourceVersion: "33193"
+  uid: a220498d-02e2-4405-93b6-e6213c1f4ba6
+spec:
+ spec:
+  rules:
+  - host: myapp.local
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: my-app-service
+            port:
+              number: 80
+  loadBalancerIP: 192.168.49.2
+
+
+

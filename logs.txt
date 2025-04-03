@@ -1,0 +1,219 @@
+
+==> Audit <==
+|-----------|------------------------------------------------------------------------|----------|----------------|---------|---------------------|---------------------|
+|  Command  |                                  Args                                  | Profile  |      User      | Version |     Start Time      |      End Time       |
+|-----------|------------------------------------------------------------------------|----------|----------------|---------|---------------------|---------------------|
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 25 Jan 25 09:56 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 25 Jan 25 09:58 IST |                     |
+| addons    | enable ingress                                                         | minikube | CHERRY95\Admin | v1.34.0 | 25 Jan 25 10:02 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:31 IST |                     |
+| delete    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:40 IST | 04 Feb 25 15:40 IST |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:48 IST | 04 Feb 25 15:50 IST |
+| ip        |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:52 IST | 04 Feb 25 15:52 IST |
+| addons    | enable ingress                                                         | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:53 IST | 04 Feb 25 15:54 IST |
+| tunnel    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:56 IST |                     |
+| tunnel    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 15:57 IST |                     |
+| delete    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:00 IST | 04 Feb 25 16:00 IST |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:33 IST | 04 Feb 25 16:35 IST |
+| start     | --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:38 IST | 04 Feb 25 16:39 IST |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:40 IST | 04 Feb 25 16:40 IST |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:42 IST | 04 Feb 25 16:43 IST |
+| ssh       |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:46 IST | 04 Feb 25 16:49 IST |
+| ssh       | -- docker images                                                       | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:49 IST | 04 Feb 25 16:49 IST |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:50 IST | 04 Feb 25 16:51 IST |
+| ssh       |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:51 IST | 04 Feb 25 16:52 IST |
+| start     | --docker-env                                                           | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:52 IST | 04 Feb 25 16:54 IST |
+|           | HTTP_PROXY=http://your-proxy:port                                      |          |                |         |                     |                     |
+|           | --docker-env                                                           |          |                |         |                     |                     |
+|           | HTTPS_PROXY=http://your-proxy:port                                     |          |                |         |                     |                     |
+| ssh       |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 16:59 IST | 04 Feb 25 17:00 IST |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:02 IST | 04 Feb 25 17:03 IST |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:06 IST | 04 Feb 25 17:06 IST |
+| start     | --hyperv-virtual-switch Wi-Fi                                          | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:06 IST | 04 Feb 25 17:08 IST |
+|           | Switch                                                                 |          |                |         |                     |                     |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:09 IST | 04 Feb 25 17:09 IST |
+| start     | --hyperv-virtual-switch                                                | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:09 IST | 04 Feb 25 17:10 IST |
+|           | Default Switch Internal                                                |          |                |         |                     |                     |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:14 IST | 04 Feb 25 17:14 IST |
+| delete    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:14 IST | 04 Feb 25 17:14 IST |
+| start     | --hyperv-virtual-switch                                                | minikube | CHERRY95\Admin | v1.34.0 | 04 Feb 25 17:14 IST |                     |
+|           | CHERRY95                                                               |          |                |         |                     |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:11 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:12 IST |                     |
+| delete    |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:14 IST | 06 Feb 25 09:14 IST |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:25 IST | 06 Feb 25 09:27 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| ssh       | -- ping -c 4 google.com                                                | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:29 IST | 06 Feb 25 09:29 IST |
+| ip        |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:31 IST | 06 Feb 25 09:31 IST |
+| dashboard |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 09:49 IST |                     |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 10:04 IST | 06 Feb 25 10:07 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| dashboard |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 06 Feb 25 10:08 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 08:43 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 08:43 IST | 08 Feb 25 08:44 IST |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 08:44 IST | 08 Feb 25 08:45 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| addons    | enable metrics-server                                                  | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 08:46 IST | 08 Feb 25 08:46 IST |
+| dashboard |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 08:47 IST |                     |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 13:31 IST | 08 Feb 25 13:32 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 18:56 IST | 08 Feb 25 18:56 IST |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 21:34 IST | 08 Feb 25 21:37 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| addons    | enable metrics-server                                                  | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 21:39 IST | 08 Feb 25 21:39 IST |
+| dashboard |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 08 Feb 25 21:39 IST |                     |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 21:53 IST |                     |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 21:54 IST |                     |
+| start     |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 21:54 IST | 21 Feb 25 21:55 IST |
+| addons    | enable metrics-server                                                  | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 21:56 IST | 21 Feb 25 21:56 IST |
+| addons    | list                                                                   | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 22:01 IST | 21 Feb 25 22:01 IST |
+| addons    | enable ingress                                                         | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 22:02 IST | 21 Feb 25 22:03 IST |
+| addons    | enable ingress                                                         | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 22:03 IST | 21 Feb 25 22:03 IST |
+| addons    | enable metrics-server                                                  | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 22:03 IST | 21 Feb 25 22:04 IST |
+| stop      |                                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 23:17 IST | 21 Feb 25 23:17 IST |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 23:17 IST | 21 Feb 25 23:19 IST |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+| addons    | enable metrics-server                                                  | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 23:19 IST | 21 Feb 25 23:19 IST |
+| start     | --driver=hyperv                                                        | minikube | CHERRY95\Admin | v1.34.0 | 21 Feb 25 23:21 IST |                     |
+|           | --hyperv-virtual-switch=MinikubeSwitch                                 |          |                |         |                     |                     |
+|-----------|------------------------------------------------------------------------|----------|----------------|---------|---------------------|---------------------|
+
+
+==> Last Start <==
+Log file created at: 2025/02/21 23:21:04
+Running on machine: cherry95
+Binary: Built with gc go1.22.5 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0221 23:21:04.691199   14612 out.go:345] Setting OutFile to fd 108 ...
+I0221 23:21:04.693226   14612 out.go:358] Setting ErrFile to fd 112...
+I0221 23:21:04.721289   14612 out.go:352] Setting JSON to false
+I0221 23:21:04.728899   14612 start.go:129] hostinfo: {"hostname":"cherry95","uptime":185019,"bootTime":1739975245,"procs":258,"os":"windows","platform":"Microsoft Windows 11 Home Single Language","platformFamily":"Standalone Workstation","platformVersion":"10.0.26100.3194 Build 26100.3194","kernelVersion":"10.0.26100.3194 Build 26100.3194","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"cfd1daea-9600-4ee4-bb39-4f7353d01589"}
+W0221 23:21:04.728899   14612 start.go:137] gopshost.Virtualization returned error: not implemented yet
+I0221 23:21:04.731653   14612 out.go:177] 😄  minikube v1.34.0 on Microsoft Windows 11 Home Single Language 10.0.26100.3194 Build 26100.3194
+I0221 23:21:04.732736   14612 notify.go:220] Checking for updates...
+I0221 23:21:04.732736   14612 config.go:182] Loaded profile config "minikube": Driver=hyperv, ContainerRuntime=docker, KubernetesVersion=v1.31.0
+I0221 23:21:04.734247   14612 driver.go:394] Setting default libvirt URI to qemu:///system
+I0221 23:21:06.202920   14612 out.go:177] ✨  Using the hyperv driver based on existing profile
+I0221 23:21:06.203461   14612 start.go:297] selected driver: hyperv
+I0221 23:21:06.203461   14612 start.go:901] validating driver "hyperv" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.34.0-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 Memory:4000 CPUs:2 DiskSize:20000 Driver:hyperv HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch:MinikubeSwitch HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.31.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.31.210 Port:8443 KubernetesVersion:v1.31.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[dashboard:true default-storageclass:true ingress:true metrics-server:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\Admin:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0221 23:21:06.203461   14612 start.go:912] status for hyperv: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0221 23:21:06.255113   14612 cni.go:84] Creating CNI manager for ""
+I0221 23:21:06.255113   14612 cni.go:158] "hyperv" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0221 23:21:06.255113   14612 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.34.0-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.45@sha256:81df288595202a317b1a4dc2506ca2e4ed5f22373c19a441b88cfbf4b9867c85 Memory:4000 CPUs:2 DiskSize:20000 Driver:hyperv HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch:MinikubeSwitch HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.31.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.31.210 Port:8443 KubernetesVersion:v1.31.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[dashboard:true default-storageclass:true ingress:true metrics-server:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\Admin:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0221 23:21:06.255720   14612 iso.go:125] acquiring lock: {Name:mk7f75a38457cfdf6d79030d179bc5585a744a74 Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0221 23:21:06.256825   14612 out.go:177] 👍  Starting "minikube" primary control-plane node in "minikube" cluster
+I0221 23:21:06.257352   14612 preload.go:131] Checking if preload exists for k8s version v1.31.0 and runtime docker
+I0221 23:21:06.257352   14612 preload.go:146] Found local preload: C:\Users\Admin\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.31.0-docker-overlay2-amd64.tar.lz4
+I0221 23:21:06.257352   14612 cache.go:56] Caching tarball of preloaded images
+I0221 23:21:06.257887   14612 preload.go:172] Found C:\Users\Admin\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.31.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0221 23:21:06.257887   14612 cache.go:59] Finished verifying existence of preloaded tar for v1.31.0 on docker
+I0221 23:21:06.257887   14612 profile.go:143] Saving config to C:\Users\Admin\.minikube\profiles\minikube\config.json ...
+I0221 23:21:06.260002   14612 start.go:360] acquireMachinesLock for minikube: {Name:mkf12f609a2dafe2d120f3d6018afbffb07f5fc3 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0221 23:21:06.260002   14612 start.go:364] duration metric: took 0s to acquireMachinesLock for "minikube"
+I0221 23:21:06.260002   14612 start.go:96] Skipping create...Using existing machine configuration
+I0221 23:21:06.260748   14612 fix.go:54] fixHost starting: 
+I0221 23:21:06.260748   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:07.198575   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:07.198575   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:07.198575   14612 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0221 23:21:07.198575   14612 fix.go:138] unexpected machine state, will restart: <nil>
+I0221 23:21:07.200974   14612 out.go:177] 🏃  Updating the running hyperv "minikube" VM ...
+I0221 23:21:07.201523   14612 machine.go:93] provisionDockerMachine start ...
+I0221 23:21:07.202060   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:08.086832   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:08.086832   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:08.086832   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I0221 23:21:09.548700   14612 main.go:141] libmachine: [stdout =====>] : 192.168.31.210
+
+I0221 23:21:09.548700   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:09.551438   14612 main.go:141] libmachine: Using SSH client type: native
+I0221 23:21:09.551438   14612 main.go:141] libmachine: <nil>
+I0221 23:21:09.551438   14612 buildroot.go:166] provisioning hostname "minikube"
+I0221 23:21:09.551438   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:10.472697   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:10.472697   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:10.472697   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I0221 23:21:11.967785   14612 main.go:141] libmachine: [stdout =====>] : 192.168.31.210
+
+I0221 23:21:11.967785   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:11.974155   14612 main.go:141] libmachine: Using SSH client type: native
+I0221 23:21:11.974795   14612 main.go:141] libmachine: <nil>
+I0221 23:21:11.974795   14612 machine.go:96] duration metric: took 4.7732721s to provisionDockerMachine
+I0221 23:21:11.974795   14612 fix.go:56] duration metric: took 5.7147936s for fixHost
+I0221 23:21:11.974795   14612 start.go:83] releasing machines lock for "minikube", held for 5.7147936s
+W0221 23:21:11.974795   14612 start.go:714] error starting host: provision: Error getting config for native Go SSH: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+W0221 23:21:11.974795   14612 out.go:270] 🤦  StartHost failed, but will try again: provision: Error getting config for native Go SSH: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+I0221 23:21:11.975373   14612 start.go:729] Will try again in 5 seconds ...
+I0221 23:21:16.978376   14612 start.go:360] acquireMachinesLock for minikube: {Name:mkf12f609a2dafe2d120f3d6018afbffb07f5fc3 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0221 23:21:16.979091   14612 start.go:364] duration metric: took 714.9µs to acquireMachinesLock for "minikube"
+I0221 23:21:16.979091   14612 start.go:96] Skipping create...Using existing machine configuration
+I0221 23:21:16.979091   14612 fix.go:54] fixHost starting: 
+I0221 23:21:16.979742   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:17.870864   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:17.870864   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:17.870864   14612 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0221 23:21:17.870864   14612 fix.go:138] unexpected machine state, will restart: <nil>
+I0221 23:21:17.873214   14612 out.go:177] 🏃  Updating the running hyperv "minikube" VM ...
+I0221 23:21:17.874368   14612 machine.go:93] provisionDockerMachine start ...
+I0221 23:21:17.874368   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:18.785942   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:18.786491   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:18.786491   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I0221 23:21:20.262304   14612 main.go:141] libmachine: [stdout =====>] : 192.168.31.210
+
+I0221 23:21:20.262304   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:20.271219   14612 main.go:141] libmachine: Using SSH client type: native
+I0221 23:21:20.271219   14612 main.go:141] libmachine: <nil>
+I0221 23:21:20.271219   14612 buildroot.go:166] provisioning hostname "minikube"
+I0221 23:21:20.271790   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I0221 23:21:21.148708   14612 main.go:141] libmachine: [stdout =====>] : Running
+
+I0221 23:21:21.148708   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:21.148708   14612 main.go:141] libmachine: [executing ==>] : C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I0221 23:21:22.595747   14612 main.go:141] libmachine: [stdout =====>] : 192.168.31.210
+
+I0221 23:21:22.595747   14612 main.go:141] libmachine: [stderr =====>] : 
+I0221 23:21:22.604672   14612 main.go:141] libmachine: Using SSH client type: native
+I0221 23:21:22.605334   14612 main.go:141] libmachine: <nil>
+I0221 23:21:22.605334   14612 machine.go:96] duration metric: took 4.7309662s to provisionDockerMachine
+I0221 23:21:22.605334   14612 fix.go:56] duration metric: took 5.6262431s for fixHost
+I0221 23:21:22.605334   14612 start.go:83] releasing machines lock for "minikube", held for 5.6262431s
+W0221 23:21:22.605921   14612 out.go:270] 😿  Failed to start hyperv VM. Running "minikube delete" may fix it: provision: Error getting config for native Go SSH: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+I0221 23:21:22.607565   14612 out.go:201] 
+W0221 23:21:22.608731   14612 out.go:270] ❌  Exiting due to GUEST_PROVISION: error provisioning guest: Failed to start host: provision: Error getting config for native Go SSH: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+W0221 23:21:22.608731   14612 out.go:270] 
+W0221 23:21:22.611493   14612 out.go:293] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0221 23:21:22.612097   14612 out.go:201] 
+
+
+==> Docker <==
+command /bin/bash -c "sudo journalctl -u docker -u cri-docker -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> container status <==
+command /bin/bash -c "sudo `which crictl || echo crictl` ps -a || sudo docker ps -a" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> describe nodes <==
+command /bin/bash -c "sudo /var/lib/minikube/binaries/v1.31.0/kubectl describe nodes --kubeconfig=/var/lib/minikube/kubeconfig" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> dmesg <==
+command /bin/bash -c "sudo dmesg -PH -L=never --level warn,err,crit,alert,emerg | tail -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kernel <==
+command /bin/bash -c "uptime && uname -a && grep PRETTY /etc/os-release" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
+
+==> kubelet <==
+command /bin/bash -c "sudo journalctl -u kubelet -n 60" failed with error: NewSession: new client: new client: Error creating new native config from ssh using: docker, &{[] [C:\Users\Admin\.minikube\machines\minikube\id_rsa]}: open C:\Users\Admin\.minikube\machines\minikube\id_rsa: Access is denied.
